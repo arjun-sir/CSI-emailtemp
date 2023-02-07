@@ -162,7 +162,7 @@ footer {
 	height: 270px;
 	position: absolute;
 	left: 0;
-	bottom: -750px;
+	/* bottom: -750px; */
 }
 
 .bottom-right {
@@ -170,7 +170,7 @@ footer {
 	height: 180px;
 	position: absolute;
 	right: 0;
-	bottom: -750px;
+	/* bottom: -750px; */
 }
 
 .top-right {
@@ -180,3 +180,5 @@ footer {
 	right: 0;
 	top: 0;
 }
+
+/*     RESPONSIVENESS       */
