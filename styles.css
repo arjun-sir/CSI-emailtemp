@@ -65,6 +65,11 @@ body {
 	box-shadow: 5px 5px #60b3dc;
 }
 
+.regbtn a {
+	text-decoration: none;
+	color: white;
+}
+
 .dates {
 	margin-top: 40px;
 	font-size: 23px;
@@ -166,4 +171,12 @@ footer {
 	position: absolute;
 	right: 0;
 	bottom: -750px;
+}
+
+.top-right {
+	width: 230px;
+	height: 220px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
