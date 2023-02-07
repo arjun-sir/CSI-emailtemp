@@ -20,16 +20,14 @@ body {
 
 .discover {
 	margin-top: 60px;
-	width: 444px;
-	height: 65px;
+	width: 40vw;
 }
 
 .arrow {
 	position: relative;
-	top: 50px;
+	top: 60px;
 	right: 20px;
-	width: 41.5px;
-	height: 40px;
+	width: 4.5vw;
 }
 
 .headline p {
@@ -46,14 +44,18 @@ body {
 }
 
 .logo {
-	width: 175px;
-	height: 35px;
+	width: 15vw;
 	margin: 0 auto;
 	/* margin-top: 70px; */
 }
 
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .regbtn {
-	margin-left: 320px;
 	font-size: 26px;
 	border: 1px solid #60b3dc;
 	border-radius: 8px;
@@ -78,13 +80,12 @@ body {
 
 .datetext {
 	position: relative;
-	left: 100px;
-	bottom: 45px;
+	left: 10vw;
+	bottom: 5vw;
 }
 
 .calendar {
-	width: 43px;
-	height: 43px;
+	width: 4vw;
 }
 
 .links {
@@ -95,13 +96,12 @@ body {
 
 .linktext {
 	position: relative;
-	left: 100px;
-	bottom: 45px;
+	left: 10vw;
+	bottom: 5vw;
 }
 
 .tools {
-	width: 43px;
-	height: 43px;
+	width: 4vw;
 }
 
 .links a {
@@ -110,7 +110,7 @@ body {
 
 .socials {
 	font-size: 22px;
-	margin-top: 15px;
+	margin-top: 0px;
 	text-align: justify;
 }
 
@@ -145,40 +145,55 @@ footer {
 }
 
 .icon {
-	width: 24px;
-	height: 24px;
+	width: 2vw;
 }
 
 .top-left {
-	width: 380px;
-	height: 250px;
+	width: 25vw;
 	position: absolute;
 	left: 0;
 	top: 0;
 }
 
 .bottom-left {
-	width: 110px;
-	height: 270px;
+	width: 8vw;
 	position: absolute;
 	left: 0;
-	/* bottom: -750px; */
 }
 
 .bottom-right {
-	width: 200px;
-	height: 180px;
+	width: 15vw;
 	position: absolute;
 	right: 0;
-	/* bottom: -750px; */
 }
 
 .top-right {
-	width: 230px;
-	height: 220px;
+	width: 20vw;
 	position: absolute;
 	right: 0;
 	top: 0;
 }
 
 /*     RESPONSIVENESS       */
+
+@media (max-width: 800px) {
+	.content,
+	.socials,
+	.links,
+	.dates {
+		font-size: 16px !important;
+	}
+
+	.regbtn {
+		font-size: 17px !important;
+	}
+	.headline p {
+		font-size: 14px !important;
+	}
+	.arrow {
+		position: relative;
+		top: 40px;
+		right: -20px;
+		width: 4.5vw;
+	}
+}
