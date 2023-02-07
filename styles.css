@@ -1,7 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	/* overflow: hidden; */
+	box-sizing: border-box;
 }
 
 .container {
@@ -10,19 +11,28 @@
 }
 
 body {
+	margin-top: 35px;
 	background-color: #000000;
 	color: white;
 	text-align: center;
 }
 
 h1 {
+	margin-top: 30px;
 	font-size: 70px;
 }
 
 .headline p {
+	margin-top: -10px;
 	font-style: italic;
 	color: #b3b3b3;
 	font-size: 20px;
+}
+
+.content {
+	margin-top: 40px;
+	text-align: justify;
+	font-size: 24px;
 }
 
 .logo {
@@ -30,6 +40,69 @@ h1 {
 	height: 35px;
 	margin: 0 auto;
 	/* margin-top: 70px; */
+}
+
+.regbtn {
+	margin-left: 320px;
+	font-size: 26px;
+	border: 1px solid #60b3dc;
+	border-radius: 8px;
+	background-color: #000000;
+	color: white;
+	width: 230px;
+	height: 60px;
+	font-weight: 700;
+	box-shadow: 5px 5px #60b3dc;
+}
+
+.dates {
+	margin-top: 40px;
+	font-size: 23px;
+	text-align: justify;
+}
+
+.datetext {
+	position: relative;
+	left: 100px;
+	bottom: 45px;
+}
+
+.calendar {
+	width: 43px;
+	height: 43px;
+}
+
+.links {
+	margin-top: 40px;
+	font-size: 23px;
+	text-align: justify;
+}
+
+.linktext {
+	position: relative;
+	left: 100px;
+	bottom: 45px;
+}
+
+.tools {
+	width: 43px;
+	height: 43px;
+}
+
+.links a {
+	color: #60b3dc;
+}
+
+.socials {
+	font-size: 22px;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+footer {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	overflow: hidden;
 }
 
 .footline {
